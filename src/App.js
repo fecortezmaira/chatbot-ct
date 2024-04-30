@@ -1,7 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    setTimeout(() => handleOnIdentify(), 500);
+  }, []);
+
+  const handleOnIdentify = () => {
+    if (!window.$ct) return null;
+
+    const user = {
+      uuid: "123",
+      code: "123",
+      name: "John Doe",
+      email: "johndoe@example.cl",
+      image: "https://randomuser.me/api/portraits/men/1.jpg",
+      phone: "+123456789",
+      role: "Admin",
+      department: "IT",
+      division: "Software",
+    };
+
+    return window.$ct.chatbot.identify(user);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
