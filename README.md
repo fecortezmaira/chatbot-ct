@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://builderbot.vercel.app/">
+  <a href="https://www.cotraining.ai/">
     <picture>
       <img src="https://app.cotraining.ai/_next/image?url=%2Fassets%2Flogo.png&w=1920&q=75" height="80">
     </picture>
@@ -13,4 +13,4 @@ Ejemplo en React para injectar el Chatbot de CoTraining usando un pequeño snipp
 
 ## Documentación
 
-Visita el [KB de CoTraining](https://kb.cotraining.ai/) para ver la documentación completa.
+Visita la [documentación de CoTraining](https://help.cotraining.ai/) para ver la guía completa paso a paso.
