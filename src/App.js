@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    setTimeout(() => handleOnIdentify(), 500);
+    setTimeout(() => handleOnIdentify(), 1000);
   }, []);
 
   const handleOnIdentify = () => {
